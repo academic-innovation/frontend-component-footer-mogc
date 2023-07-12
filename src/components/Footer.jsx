@@ -5,7 +5,7 @@ import { Facebook, Abc, Close } from '@edx/paragon/icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
-import mogcLogo from '../logo-white-stacked.svg';
+import mogcLogo from '../mo-logo-social.png';
 
 function SocialLink({ href, label, children }) {
   return (
@@ -33,8 +33,9 @@ export default function Footer({ logo }) {
           <img
 
             src={mogcLogo || logo || config.LOGO_TRADEMARK_URL}
-            width="120"
-            alt=""
+            width="72"
+            style={{paddingTop: "6px"}}
+            alt="Michigan Online logo"
           />
         </a>
         <div className="px-4 small">
