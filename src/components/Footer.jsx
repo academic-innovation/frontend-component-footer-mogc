@@ -21,6 +21,7 @@ function SocialLink({ href, label, children }) {
 
 export default function Footer({ logo }) {
   const { config } = useContext(AppContext);
+  const year = new Date().getFullYear()
 
   return (
     <footer className="footer d-flex border-top py-3 px-4 bg-primary text-white">
@@ -41,7 +42,7 @@ export default function Footer({ logo }) {
         <div className="px-4 small">
           <p>
             Powered by Academic Innovation<br/>
-            Copyright &copy;2022 The Regents of the University of Michigan
+            Copyright &copy;{year} The Regents of the University of Michigan
           </p>
           <p>
             <a
