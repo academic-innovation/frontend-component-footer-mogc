@@ -62,7 +62,7 @@ export default function Footer({ logo }) {
             <a
               className="text-white"
               style={{textDecorationColor: "white"}}
-              href="https://engage-iterate.zendesk.com/hc/en-us/articles/360037533714-What-is-your-Accessibility-Policy-"
+              href="https://teamdynamix.umich.edu/TDClient/187/Portal/KB/ArticleDet?ID=10934"
             >
               Accessibility Policy
             </a>
