@@ -1,9 +1,7 @@
 import React, { useContext } from 'react';
 import { AppContext } from '@edx/frontend-platform/react';
-import { IconButton, Icon } from '@edx/paragon';
-import { Facebook, Abc, Close } from '@edx/paragon/icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 
 import mogcLogo from '../mo-logo-social.png';
 
@@ -85,7 +83,7 @@ export default function Footer({ logo }) {
             href="https://twitter.com/UMichOnline"
             label="Michigan Online on Twitter"
           >
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faXTwitter} />
           </SocialLink>
         </div>
       </div>
