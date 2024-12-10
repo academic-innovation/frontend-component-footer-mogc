@@ -60,7 +60,7 @@ export default function Footer({ logo }) {
             <a
               className="text-white"
               style={{textDecorationColor: "white"}}
-              href="https://teamdynamix.umich.edu/TDClient/187/Portal/KB/ArticleDet?ID=10934"
+              href="https://teamdynamix.umich.edu/TDClient/227/Portal/KB/ArticleDet?ID=12035"
             >
               Accessibility Policy
             </a>
